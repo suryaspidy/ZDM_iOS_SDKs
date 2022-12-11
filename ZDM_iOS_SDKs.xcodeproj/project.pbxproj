@@ -3,10 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 55;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2D999B381CBC63FF443D83B3 /* Pods_ZDM_iOS_SDKs.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 901E76F955874874AD6BB62D /* Pods_ZDM_iOS_SDKs.framework */; };
 		2D9CD6702944CF5500CEDF23 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D9CD66F2944CF5500CEDF23 /* AppDelegate.swift */; };
 		2D9CD6722944CF5500CEDF23 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D9CD6712944CF5500CEDF23 /* SceneDelegate.swift */; };
 		2D9CD6742944CF5500CEDF23 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D9CD6732944CF5500CEDF23 /* ViewController.swift */; };
@@ -17,6 +18,8 @@
 		2D9CD68A2944CF5900CEDF23 /* ZDM_iOS_SDKsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D9CD6892944CF5900CEDF23 /* ZDM_iOS_SDKsTests.swift */; };
 		2D9CD6942944CF5900CEDF23 /* ZDM_iOS_SDKsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D9CD6932944CF5900CEDF23 /* ZDM_iOS_SDKsUITests.swift */; };
 		2D9CD6962944CF5900CEDF23 /* ZDM_iOS_SDKsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D9CD6952944CF5900CEDF23 /* ZDM_iOS_SDKsUITestsLaunchTests.swift */; };
+		8F916D29A848A2C4B2BBFF9F /* Pods_ZDM_iOS_SDKs_ZDM_iOS_SDKsUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38CFB3F5F9CA752B5071B150 /* Pods_ZDM_iOS_SDKs_ZDM_iOS_SDKsUITests.framework */; };
+		F759B263433BD7C83BF5331F /* Pods_ZDM_iOS_SDKsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68C4147155DAD5A1D87B0CEE /* Pods_ZDM_iOS_SDKsTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,15 @@
 		2D9CD68F2944CF5900CEDF23 /* ZDM_iOS_SDKsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZDM_iOS_SDKsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D9CD6932944CF5900CEDF23 /* ZDM_iOS_SDKsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZDM_iOS_SDKsUITests.swift; sourceTree = "<group>"; };
 		2D9CD6952944CF5900CEDF23 /* ZDM_iOS_SDKsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZDM_iOS_SDKsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		38CFB3F5F9CA752B5071B150 /* Pods_ZDM_iOS_SDKs_ZDM_iOS_SDKsUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZDM_iOS_SDKs_ZDM_iOS_SDKsUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		532601A1518FE109ED109FB7 /* Pods-ZDM_iOS_SDKs-ZDM_iOS_SDKsUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZDM_iOS_SDKs-ZDM_iOS_SDKsUITests.release.xcconfig"; path = "Target Support Files/Pods-ZDM_iOS_SDKs-ZDM_iOS_SDKsUITests/Pods-ZDM_iOS_SDKs-ZDM_iOS_SDKsUITests.release.xcconfig"; sourceTree = "<group>"; };
+		54E9F94A594F85B7F8618F74 /* Pods-ZDM_iOS_SDKsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZDM_iOS_SDKsTests.debug.xcconfig"; path = "Target Support Files/Pods-ZDM_iOS_SDKsTests/Pods-ZDM_iOS_SDKsTests.debug.xcconfig"; sourceTree = "<group>"; };
+		68C4147155DAD5A1D87B0CEE /* Pods_ZDM_iOS_SDKsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZDM_iOS_SDKsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		70EA03BE2E2B576C7B63B6AA /* Pods-ZDM_iOS_SDKsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZDM_iOS_SDKsTests.release.xcconfig"; path = "Target Support Files/Pods-ZDM_iOS_SDKsTests/Pods-ZDM_iOS_SDKsTests.release.xcconfig"; sourceTree = "<group>"; };
+		78DE5FEAC25F88B810BEE0FF /* Pods-ZDM_iOS_SDKs-ZDM_iOS_SDKsUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZDM_iOS_SDKs-ZDM_iOS_SDKsUITests.debug.xcconfig"; path = "Target Support Files/Pods-ZDM_iOS_SDKs-ZDM_iOS_SDKsUITests/Pods-ZDM_iOS_SDKs-ZDM_iOS_SDKsUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		901E76F955874874AD6BB62D /* Pods_ZDM_iOS_SDKs.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZDM_iOS_SDKs.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9EFA245CAD1BCF73BE41BF9B /* Pods-ZDM_iOS_SDKs.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZDM_iOS_SDKs.debug.xcconfig"; path = "Target Support Files/Pods-ZDM_iOS_SDKs/Pods-ZDM_iOS_SDKs.debug.xcconfig"; sourceTree = "<group>"; };
+		ABE1DC1BC175284A0BB1B952 /* Pods-ZDM_iOS_SDKs.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZDM_iOS_SDKs.release.xcconfig"; path = "Target Support Files/Pods-ZDM_iOS_SDKs/Pods-ZDM_iOS_SDKs.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2D999B381CBC63FF443D83B3 /* Pods_ZDM_iOS_SDKs.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F759B263433BD7C83BF5331F /* Pods_ZDM_iOS_SDKsTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8F916D29A848A2C4B2BBFF9F /* Pods_ZDM_iOS_SDKs_ZDM_iOS_SDKsUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +100,8 @@
 				2D9CD6882944CF5900CEDF23 /* ZDM_iOS_SDKsTests */,
 				2D9CD6922944CF5900CEDF23 /* ZDM_iOS_SDKsUITests */,
 				2D9CD66D2944CF5500CEDF23 /* Products */,
+				4C9FB8BF2318D065401F005A /* Pods */,
+				CD172A14EBA05F82C3F27584 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -130,6 +147,30 @@
 			path = ZDM_iOS_SDKsUITests;
 			sourceTree = "<group>";
 		};
+		4C9FB8BF2318D065401F005A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9EFA245CAD1BCF73BE41BF9B /* Pods-ZDM_iOS_SDKs.debug.xcconfig */,
+				ABE1DC1BC175284A0BB1B952 /* Pods-ZDM_iOS_SDKs.release.xcconfig */,
+				78DE5FEAC25F88B810BEE0FF /* Pods-ZDM_iOS_SDKs-ZDM_iOS_SDKsUITests.debug.xcconfig */,
+				532601A1518FE109ED109FB7 /* Pods-ZDM_iOS_SDKs-ZDM_iOS_SDKsUITests.release.xcconfig */,
+				54E9F94A594F85B7F8618F74 /* Pods-ZDM_iOS_SDKsTests.debug.xcconfig */,
+				70EA03BE2E2B576C7B63B6AA /* Pods-ZDM_iOS_SDKsTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		CD172A14EBA05F82C3F27584 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				901E76F955874874AD6BB62D /* Pods_ZDM_iOS_SDKs.framework */,
+				38CFB3F5F9CA752B5071B150 /* Pods_ZDM_iOS_SDKs_ZDM_iOS_SDKsUITests.framework */,
+				68C4147155DAD5A1D87B0CEE /* Pods_ZDM_iOS_SDKsTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -137,6 +178,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2D9CD6992944CF5900CEDF23 /* Build configuration list for PBXNativeTarget "ZDM_iOS_SDKs" */;
 			buildPhases = (
+				3C23A15C71DE7FD31D6CE34B /* [CP] Check Pods Manifest.lock */,
 				2D9CD6682944CF5500CEDF23 /* Sources */,
 				2D9CD6692944CF5500CEDF23 /* Frameworks */,
 				2D9CD66A2944CF5500CEDF23 /* Resources */,
@@ -154,6 +196,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2D9CD69C2944CF5900CEDF23 /* Build configuration list for PBXNativeTarget "ZDM_iOS_SDKsTests" */;
 			buildPhases = (
+				BB91B281FB9EF5CFBBA9BA5B /* [CP] Check Pods Manifest.lock */,
 				2D9CD6812944CF5900CEDF23 /* Sources */,
 				2D9CD6822944CF5900CEDF23 /* Frameworks */,
 				2D9CD6832944CF5900CEDF23 /* Resources */,
@@ -172,6 +215,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2D9CD69F2944CF5900CEDF23 /* Build configuration list for PBXNativeTarget "ZDM_iOS_SDKsUITests" */;
 			buildPhases = (
+				1F3125880FC9A53A99117025 /* [CP] Check Pods Manifest.lock */,
 				2D9CD68B2944CF5900CEDF23 /* Sources */,
 				2D9CD68C2944CF5900CEDF23 /* Frameworks */,
 				2D9CD68D2944CF5900CEDF23 /* Resources */,
@@ -210,7 +254,7 @@
 				};
 			};
 			buildConfigurationList = 2D9CD6672944CF5500CEDF23 /* Build configuration list for PBXProject "ZDM_iOS_SDKs" */;
-			compatibilityVersion = "Xcode 14.0";
+			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -255,6 +299,75 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1F3125880FC9A53A99117025 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ZDM_iOS_SDKs-ZDM_iOS_SDKsUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3C23A15C71DE7FD31D6CE34B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ZDM_iOS_SDKs-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BB91B281FB9EF5CFBBA9BA5B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ZDM_iOS_SDKsTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		2D9CD6682944CF5500CEDF23 /* Sources */ = {
@@ -436,6 +549,7 @@
 		};
 		2D9CD69A2944CF5900CEDF23 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9EFA245CAD1BCF73BE41BF9B /* Pods-ZDM_iOS_SDKs.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -464,6 +578,7 @@
 		};
 		2D9CD69B2944CF5900CEDF23 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ABE1DC1BC175284A0BB1B952 /* Pods-ZDM_iOS_SDKs.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -492,6 +607,7 @@
 		};
 		2D9CD69D2944CF5900CEDF23 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 54E9F94A594F85B7F8618F74 /* Pods-ZDM_iOS_SDKsTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -512,6 +628,7 @@
 		};
 		2D9CD69E2944CF5900CEDF23 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 70EA03BE2E2B576C7B63B6AA /* Pods-ZDM_iOS_SDKsTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -532,6 +649,7 @@
 		};
 		2D9CD6A02944CF5900CEDF23 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 78DE5FEAC25F88B810BEE0FF /* Pods-ZDM_iOS_SDKs-ZDM_iOS_SDKsUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -550,6 +668,7 @@
 		};
 		2D9CD6A12944CF5900CEDF23 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 532601A1518FE109ED109FB7 /* Pods-ZDM_iOS_SDKs-ZDM_iOS_SDKsUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
