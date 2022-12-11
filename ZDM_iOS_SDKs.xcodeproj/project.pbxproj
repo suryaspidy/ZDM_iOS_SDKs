@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2D57C6ED29462E7B003882C3 /* Skaletons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D57C6EC29462E7B003882C3 /* Skaletons.swift */; };
+		2D57C6EF294650D5003882C3 /* AppExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D57C6EE294650D5003882C3 /* AppExtensions.swift */; };
+		2D57C6F12946530D003882C3 /* MainSDKList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D57C6F02946530D003882C3 /* MainSDKList.swift */; };
+		2D57C6F429465371003882C3 /* MainSDKListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D57C6F229465371003882C3 /* MainSDKListCell.swift */; };
+		2D57C6F529465371003882C3 /* MainSDKListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2D57C6F329465371003882C3 /* MainSDKListCell.xib */; };
 		2D999B381CBC63FF443D83B3 /* Pods_ZDM_iOS_SDKs.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 901E76F955874874AD6BB62D /* Pods_ZDM_iOS_SDKs.framework */; };
 		2D9CD6702944CF5500CEDF23 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D9CD66F2944CF5500CEDF23 /* AppDelegate.swift */; };
 		2D9CD6722944CF5500CEDF23 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D9CD6712944CF5500CEDF23 /* SceneDelegate.swift */; };
@@ -40,6 +45,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2D57C6EC29462E7B003882C3 /* Skaletons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Skaletons.swift; sourceTree = "<group>"; };
+		2D57C6EE294650D5003882C3 /* AppExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppExtensions.swift; sourceTree = "<group>"; };
+		2D57C6F02946530D003882C3 /* MainSDKList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainSDKList.swift; sourceTree = "<group>"; };
+		2D57C6F229465371003882C3 /* MainSDKListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainSDKListCell.swift; sourceTree = "<group>"; };
+		2D57C6F329465371003882C3 /* MainSDKListCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainSDKListCell.xib; sourceTree = "<group>"; };
 		2D9CD66C2944CF5500CEDF23 /* ZDM_iOS_SDKs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZDM_iOS_SDKs.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D9CD66F2944CF5500CEDF23 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2D9CD6712944CF5500CEDF23 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -126,6 +136,11 @@
 				2D9CD67D2944CF5800CEDF23 /* LaunchScreen.storyboard */,
 				2D9CD6802944CF5800CEDF23 /* Info.plist */,
 				2D9CD6782944CF5500CEDF23 /* ZDM_iOS_SDKs.xcdatamodeld */,
+				2D57C6EC29462E7B003882C3 /* Skaletons.swift */,
+				2D57C6EE294650D5003882C3 /* AppExtensions.swift */,
+				2D57C6F02946530D003882C3 /* MainSDKList.swift */,
+				2D57C6F229465371003882C3 /* MainSDKListCell.swift */,
+				2D57C6F329465371003882C3 /* MainSDKListCell.xib */,
 			);
 			path = ZDM_iOS_SDKs;
 			sourceTree = "<group>";
@@ -157,7 +172,6 @@
 				54E9F94A594F85B7F8618F74 /* Pods-ZDM_iOS_SDKsTests.debug.xcconfig */,
 				70EA03BE2E2B576C7B63B6AA /* Pods-ZDM_iOS_SDKsTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -281,6 +295,7 @@
 				2D9CD67F2944CF5800CEDF23 /* LaunchScreen.storyboard in Resources */,
 				2D9CD67C2944CF5800CEDF23 /* Assets.xcassets in Resources */,
 				2D9CD6772944CF5500CEDF23 /* Main.storyboard in Resources */,
+				2D57C6F529465371003882C3 /* MainSDKListCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -375,8 +390,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				2D9CD6742944CF5500CEDF23 /* ViewController.swift in Sources */,
+				2D57C6ED29462E7B003882C3 /* Skaletons.swift in Sources */,
 				2D9CD6702944CF5500CEDF23 /* AppDelegate.swift in Sources */,
+				2D57C6F429465371003882C3 /* MainSDKListCell.swift in Sources */,
+				2D57C6EF294650D5003882C3 /* AppExtensions.swift in Sources */,
 				2D9CD67A2944CF5500CEDF23 /* ZDM_iOS_SDKs.xcdatamodeld in Sources */,
+				2D57C6F12946530D003882C3 /* MainSDKList.swift in Sources */,
 				2D9CD6722944CF5500CEDF23 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
