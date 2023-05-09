@@ -12,6 +12,12 @@
 		2D57C6F12946530D003882C3 /* MainSDKList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D57C6F02946530D003882C3 /* MainSDKList.swift */; };
 		2D57C6F429465371003882C3 /* MainSDKListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D57C6F229465371003882C3 /* MainSDKListCell.swift */; };
 		2D57C6F529465371003882C3 /* MainSDKListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2D57C6F329465371003882C3 /* MainSDKListCell.xib */; };
+		2D671B43294A5DBC006CB39B /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D671B42294A5DBC006CB39B /* CoreDataManager.swift */; };
+		2D6B84B02949D0E40030414B /* SideMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D6B84AF2949D0E40030414B /* SideMenuView.swift */; };
+		2D6B84B22949D16A0030414B /* SideMenuBody.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D6B84B12949D16A0030414B /* SideMenuBody.swift */; };
+		2D6B84B42949D5E60030414B /* SDKData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D6B84B32949D5E60030414B /* SDKData.swift */; };
+		2D85F7172948B50600016964 /* SDKListScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D85F7162948B50600016964 /* SDKListScreen.swift */; };
+		2D85F71A2948C2F600016964 /* SSOHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D85F7192948C2F600016964 /* SSOHandler.swift */; };
 		2D999B381CBC63FF443D83B3 /* Pods_ZDM_iOS_SDKs.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 901E76F955874874AD6BB62D /* Pods_ZDM_iOS_SDKs.framework */; };
 		2D9CD6702944CF5500CEDF23 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D9CD66F2944CF5500CEDF23 /* AppDelegate.swift */; };
 		2D9CD6722944CF5500CEDF23 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D9CD6712944CF5500CEDF23 /* SceneDelegate.swift */; };
@@ -50,6 +56,12 @@
 		2D57C6F02946530D003882C3 /* MainSDKList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainSDKList.swift; sourceTree = "<group>"; };
 		2D57C6F229465371003882C3 /* MainSDKListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainSDKListCell.swift; sourceTree = "<group>"; };
 		2D57C6F329465371003882C3 /* MainSDKListCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainSDKListCell.xib; sourceTree = "<group>"; };
+		2D671B42294A5DBC006CB39B /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
+		2D6B84AF2949D0E40030414B /* SideMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuView.swift; sourceTree = "<group>"; };
+		2D6B84B12949D16A0030414B /* SideMenuBody.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuBody.swift; sourceTree = "<group>"; };
+		2D6B84B32949D5E60030414B /* SDKData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SDKData.swift; sourceTree = "<group>"; };
+		2D85F7162948B50600016964 /* SDKListScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SDKListScreen.swift; sourceTree = "<group>"; };
+		2D85F7192948C2F600016964 /* SSOHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SSOHandler.swift; sourceTree = "<group>"; };
 		2D9CD66C2944CF5500CEDF23 /* ZDM_iOS_SDKs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZDM_iOS_SDKs.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D9CD66F2944CF5500CEDF23 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2D9CD6712944CF5500CEDF23 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -103,6 +115,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2D85F7182948C2E400016964 /* SwiftUI */ = {
+			isa = PBXGroup;
+			children = (
+				2D85F7162948B50600016964 /* SDKListScreen.swift */,
+				2D85F7192948C2F600016964 /* SSOHandler.swift */,
+				2D6B84AF2949D0E40030414B /* SideMenuView.swift */,
+				2D6B84B12949D16A0030414B /* SideMenuBody.swift */,
+			);
+			path = SwiftUI;
+			sourceTree = "<group>";
+		};
 		2D9CD6632944CF5500CEDF23 = {
 			isa = PBXGroup;
 			children = (
@@ -141,6 +164,9 @@
 				2D57C6F02946530D003882C3 /* MainSDKList.swift */,
 				2D57C6F229465371003882C3 /* MainSDKListCell.swift */,
 				2D57C6F329465371003882C3 /* MainSDKListCell.xib */,
+				2D85F7182948C2E400016964 /* SwiftUI */,
+				2D6B84B32949D5E60030414B /* SDKData.swift */,
+				2D671B42294A5DBC006CB39B /* CoreDataManager.swift */,
 			);
 			path = ZDM_iOS_SDKs;
 			sourceTree = "<group>";
@@ -196,6 +222,7 @@
 				2D9CD6682944CF5500CEDF23 /* Sources */,
 				2D9CD6692944CF5500CEDF23 /* Frameworks */,
 				2D9CD66A2944CF5500CEDF23 /* Resources */,
+				7367AAF6A08504C91690FDA8 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -233,6 +260,7 @@
 				2D9CD68B2944CF5900CEDF23 /* Sources */,
 				2D9CD68C2944CF5900CEDF23 /* Frameworks */,
 				2D9CD68D2944CF5900CEDF23 /* Resources */,
+				40593EC8F08E87F91F42BC3B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -360,6 +388,40 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		40593EC8F08E87F91F42BC3B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ZDM_iOS_SDKs-ZDM_iOS_SDKsUITests/Pods-ZDM_iOS_SDKs-ZDM_iOS_SDKsUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ZDM_iOS_SDKs-ZDM_iOS_SDKsUITests/Pods-ZDM_iOS_SDKs-ZDM_iOS_SDKsUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ZDM_iOS_SDKs-ZDM_iOS_SDKsUITests/Pods-ZDM_iOS_SDKs-ZDM_iOS_SDKsUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7367AAF6A08504C91690FDA8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ZDM_iOS_SDKs/Pods-ZDM_iOS_SDKs-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ZDM_iOS_SDKs/Pods-ZDM_iOS_SDKs-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ZDM_iOS_SDKs/Pods-ZDM_iOS_SDKs-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		BB91B281FB9EF5CFBBA9BA5B /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -389,13 +451,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2D85F71A2948C2F600016964 /* SSOHandler.swift in Sources */,
+				2D6B84B22949D16A0030414B /* SideMenuBody.swift in Sources */,
 				2D9CD6742944CF5500CEDF23 /* ViewController.swift in Sources */,
 				2D57C6ED29462E7B003882C3 /* Skaletons.swift in Sources */,
 				2D9CD6702944CF5500CEDF23 /* AppDelegate.swift in Sources */,
+				2D6B84B02949D0E40030414B /* SideMenuView.swift in Sources */,
 				2D57C6F429465371003882C3 /* MainSDKListCell.swift in Sources */,
 				2D57C6EF294650D5003882C3 /* AppExtensions.swift in Sources */,
 				2D9CD67A2944CF5500CEDF23 /* ZDM_iOS_SDKs.xcdatamodeld in Sources */,
+				2D6B84B42949D5E60030414B /* SDKData.swift in Sources */,
 				2D57C6F12946530D003882C3 /* MainSDKList.swift in Sources */,
+				2D85F7172948B50600016964 /* SDKListScreen.swift in Sources */,
+				2D671B43294A5DBC006CB39B /* CoreDataManager.swift in Sources */,
 				2D9CD6722944CF5500CEDF23 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

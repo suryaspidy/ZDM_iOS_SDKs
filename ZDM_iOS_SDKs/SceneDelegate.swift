@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import SSOKit
 
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
@@ -17,6 +18,12 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         // If using a storyboard, the `window` property will automatically be initialized and attached to the scene.
         // This delegate does not imply the connecting scene or session are new (see `application:configurationForConnectingSceneSession` instead).
         guard let _ = (scene as? UIWindowScene) else { return }
+        
+        let clientID = "1002.HRFGDR05FT7613490PV4984NGSDANO"
+        let scopes = ["ZohoSupport.tickets.ALL","ZohoSupport.basic.READ","ZohoSupport.basic.CREATE","ZohoSupport.settings.READ","ZohoSupport.settings.ALL","ZohoSupport.contacts.READ","Desk.contacts.READ","Desk.contacts.WRITE","Desk.contacts.UPDATE","Desk.contacts.CREATE","Zohosearch.securesearch.READ","aaaserver.profile.READ","zohocontacts.userphoto.READ","ZohoSupport.feeds.ALL","ZohoSupport.basic.UPDATE","VirtualOffice.messages.CREATE","ZohoChat.Smileys.READ","ZohoChat.Chats.READ","profile.userphoto.UPDATE","ZohoChat.Chats.UPDATE","Desk.articles.READ","ZohoSupport.search.READ","Desk.search.READ","ZIAPlatform.transcript.READ","ZIAPlatform.transcript.CREATE","ZIAPlatform.transcript.DELETE","ZIAPlatform.users.READ","DRE.dreapi.all", "Desk.community.READ","Desk.zia.READ","Desk.tasks.READ", "Desk.settings.extension.READ", "Desk.settings.extension.ALL", "Desk.extensions.CREATE","Desk.extensions.DELETE","ZohoCliq.Webhooks.CREATE","ZohoPayments.MobileSubscription.READ","ZohoPayments.MobileSubscription.CREATE","ZohoPayments.MobileSubscription.UPDATE","Desk.activities.READ", "Desk.activities.UPDATE", "Desk.activities.CREATE", "Desk.activities.DELETE"]
+        let urlScheme = "deskradar"
+        
+        ZSSOKit.initWithClientID(clientID, scope: scopes, urlScheme: urlScheme, mainWindow: window, buildType: .Live_SSO)
     }
 
     func sceneDidDisconnect(_ scene: UIScene) {
@@ -50,6 +57,9 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         (UIApplication.shared.delegate as? AppDelegate)?.saveContext()
     }
 
+    func scene(_ scene: UIScene, openURLContexts URLContexts: Set<UIOpenURLContext>) {
+        ZSSOKit.handle(URLContexts.first?.url, sourceApplication: URLContexts.first?.options.sourceApplication, annotation: URLContexts.first?.options.annotation)
+    }
 
 }
 

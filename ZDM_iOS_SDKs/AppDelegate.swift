@@ -7,6 +7,7 @@
 
 import UIKit
 import CoreData
+import SSOKit
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -75,6 +76,14 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
                 fatalError("Unresolved error \(nserror), \(nserror.userInfo)")
             }
         }
+    }
+    
+    func application(_ app: UIApplication, open url: URL, options: [UIApplication.OpenURLOptionsKey : Any] = [:]) -> Bool {
+        return ZSSOKit.handle(url, sourceApplication: options[UIApplication.OpenURLOptionsKey.sourceApplication] as? String, annotation: options[UIApplication.OpenURLOptionsKey.annotation])
+    }
+
+    func application(_ application: UIApplication, open url: URL, sourceApplication: String?, annotation: Any) -> Bool {
+        return ZSSOKit.handle(url, sourceApplication: sourceApplication, annotation: annotation)
     }
 
 }
